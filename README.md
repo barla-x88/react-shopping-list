@@ -1,8 +1,15 @@
-# React + Vite
+# Shopping List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Lightweight Shopping list web app for your device**
 
-Currently, two official plugins are available:
+You can use this web app to plan your shopping. It has the following features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Save list to device (The list will be there when you open the web app again)
+- mark item as purchased/not purchased
+
+## Technologies
+
+- [React](https://react.dev/) - Library for quickly building user interfaces
+- [Bootstrap](https://getbootstrap.com/) - For responsive user Interface
+- [uniqid](https://www.npmjs.com/package/uniqid) - Unique ID generator
+- [svgRepo](https://www.svgrepo.com/svg/165325/shopping-cart) - favicon for the app
