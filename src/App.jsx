@@ -11,7 +11,7 @@ function App() {
   return (
     <main className="container h-100vh">
       {/* Heading */}
-      <div className="row justify-content-center align-items-center">
+      <div className="row justify-content-center align-items-center my-4">
         <div className="col">
           <h1 className="text-center">shopping List</h1>
         </div>
@@ -32,24 +32,24 @@ function App() {
       </div>
 
       {/* add new item */}
-      <div className="row mt-4">
-        <div className="col-auto mb-3">
+      <div className="row mt-4 justify-content-center">
+        <div className="col-sm-12 col-md-auto ">
           <label htmlFor="itemName" className="col-form-label">
             Item Name
           </label>
         </div>
-        <div className="col-auto mb-3">
+        <div className="col-sm-12 col-md-auto ">
           <input type="text" id="itemName" className="form-control" />
         </div>
-        <div className="col-auto mb-3">
+        <div className="col-sm-12 col-md-auto ">
           <label htmlFor="itemQuantity" className="col-form-label">
             Item Quantity
           </label>
         </div>
-        <div className="col-auto mb-3">
+        <div className="col-sm-12 col-md-auto mb-3">
           <input type="text" id="itemQuantity" className="form-control" />
         </div>
-        <div className="col-sm-12 col-md-auto mb-3">
+        <div className="col-sm-12 col-md-auto">
           <button type="button" className="btn btn-success">
             Add Item
           </button>
@@ -57,7 +57,7 @@ function App() {
       </div>
 
       {/* list */}
-      <div className="row mt-4">
+      <div className="row mt-4 justify-content-center">
         <div className="col-sm-6">
           <ul className="list-group">
             {list.map((item) => {
