@@ -1,0 +1,15 @@
+.h-100vh {
+  min-height: 100vh;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.item,
+.itemForm {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
